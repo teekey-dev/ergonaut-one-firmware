@@ -13,14 +13,7 @@
 &mt { quick-tap-ms = <200>; };
 
 / {
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        tri-layer {
-            if-layers = <1 2>;
-            then-layer = <4>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 
     macros {
         mmv_left_up: mmv_left_up {
@@ -60,7 +53,7 @@
             bindings = <
 &kp RIGHT_BRACKET  &kp Q       &kp W       &kp E        &kp R         &kp T    &kp Y      &kp U            &kp I          &kp O       &kp P          &kp LBKT
 &kp GRAVE          &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHIFT F  &kp G    &kp H      &mt RSHIFT J     &mt RCTRL K    &mt RALT L  &mt RGUI SEMI  &kp SQT
-&kp MINUS          &kp Z       &lt 3 X     &lt 2 C      &lt 1 V       &kp B    &kp N      &lt 1 M          &lt 2 COMMA    &kp DOT     &kp FSLH       &kp BSLH
+&kp MINUS          &lt 4 Z     &lt 3 X     &lt 2 C      &lt 1 V       &kp B    &kp N      &lt 1 M          &lt 2 COMMA    &kp DOT     &lt 4 SLASH    &kp BSLH
                                            &kp EQUAL    &kp TAB       &kp ESC  &kp SPACE  &mt LANG1 ENTER  &kp BACKSPACE
             >;
         };
