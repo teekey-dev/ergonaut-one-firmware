@@ -47,9 +47,9 @@
         raise_layer {
             display-name = "NUM";
             bindings = <
-&mt LGUI KP_NUM  &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS  &kp C_VOL_UP  &kp HOME  &kp PSCRN  &kp PG_UP  &none                 &none
-&none            &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS   &kp C_MUTE    &kp END   &kp UP     &kp PG_DN  &kp K_APPLICATION     &none
-&none            &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT    &kp C_VOL_DN  &kp LEFT  &kp DOWN   &kp RIGHT  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC
+&mt LGUI KP_NUM  &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS  &kp C_VOL_UP  &kp HOME  &kp UP_ARROW  &kp PG_UP      &none                 &none
+&none            &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS   &kp C_MUTE    &kp LEFT  &kp DOWN      &kp RIGHT      &kp K_APPLICATION     &none
+&none            &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT    &kp C_VOL_DN  &kp END   &kp PSCRN     &kp PAGE_DOWN  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC
                                              &trans     &trans     &trans        &trans        &trans    &trans
             >;
         };
